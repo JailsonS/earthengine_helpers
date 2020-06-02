@@ -29,7 +29,6 @@ exports.getSr = {
         }
         
         return col;
-        
     },
     
     filterCollectionS2: function (roi, t0, t1, cloud) {
