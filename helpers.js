@@ -1,10 +1,9 @@
 
 //===============================================================================================================================================
-// Funções auxíliares para uso dentro da plataforma Google Earth Engine
-// getSr - conjunto de funções para buscar imagens de acordo com o sensor
-// indexSr - conjunto de funções usadas para gerar índices espectrais
-// hantModel - modelo harmonico para suavizar séries temporais
-// getArea - conjunto de funções para realizar cálculos de área
+// getSr - lookup satelite images acordding image types
+// indexSr - generates vegetation index
+// hantModel - harmic models to smooth time series
+// getArea - script to calculate area in hectares
 
 
 exports.getSr = {
